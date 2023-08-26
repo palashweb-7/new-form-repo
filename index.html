@@ -4,8 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>new form 2023</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="email"]{
+            color: rgb(255, 0, 0);
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <h2>please fill up the form</h2>
+        <form >
+            <label for="name">your name:
+                <input type="text" name="" id="name" placeholder="your name">
+               
+            </label>
+            <label for="email"> your mail:
+                <input type="email" id="email" placeholder="your mail">
+            </label>
+            <fieldset style="width: 500px; height: 100px;">
+                <legend>
+                    four order
+                </legend>
+                <label for="vapa">
+                    <input type="radio" name="vapa" id="vapa">vapa
+                </label>
+                <label for="tel pitha">
+                    <input type="radio" name="vapa" id="tel pitha">tel pitha
+                </label>
+                <label for="chitoy">
+                    <input type="radio" name="vapa" id="chitoy">Chitoy
+                </label>
+               
+            </fieldset>
+            <fieldset style="width: 500px; height: 100px;">
+               <legend>
+                 choice another vorta
+               </legend>
+               <label for="sutki">
+                <input type="checkbox" name="" id="jhal">sutki
+               </label>
+               <label for="badam">
+                <input type="checkbox" name="vorta" id="jhal">badm
+               </label>
+               <label for="sorisa">
+                <input type="checkbox" name="vorta" id="jhal">sorisa
+               </label>
+            </fieldset>
+            <fieldset>
+                <legend>comment</legend>
+               <textarea name="" id="" cols="30" rows="10"></textarea>
+               
+            </fieldset>
+            <input type="reset" value="reset">
+            <input style="background-color: orange; color: aliceblue; border: none; padding: 5px; border-radius: 5px;" type="submit" value="submit">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
